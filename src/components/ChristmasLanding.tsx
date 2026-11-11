@@ -149,14 +149,14 @@ export default function ChristmasLanding() {
         <div className="hero-copy">
           <div className="eyebrow">KIT DIGITAL PARA IMPRIMIR, MONTAR E BRINCAR EM FAMÍLIA</div>
           <h1>UM NATAL QUE ELES NÃO VÃO SÓ ABRIR.<br/><span>VÃO CONSTRUIR COM VOCÊ.</span></h1>
+          <div className="hero-art glow-wrap hero-art-inline">
+            <img src={assets.hero} alt="Vila do Papai Noel com caixa ilustrativa, folhas e peças montadas" fetchPriority="high" />
+            <div className="floating-note">🎁 UMA ATIVIDADE PARA FAZER JUNTO</div>
+          </div>
           <p className="hero-sub">Imprima a Vila do Papai Noel, reúna a família e transforme uma tarde comum em uma atividade de Natal feita por vocês — casinha por casinha.</p>
           <div className="mechanism"><b>IMPRIMA</b><i>→</i><b>MONTE</b><i>→</i><b>BRINQUE</b><i>→</i><b>GUARDE</b></div>
           <button className="primary-btn hero-btn" onClick={() => document.getElementById('planos')?.scrollIntoView({ behavior: 'smooth' })}>QUERO VIVER ESSA MAGIA <Arrow/></button>
           <div className="hero-chips"><span>✓ Material em PDF</span><span>✓ Vila completa no Premium</span><span>✓ 4 bônus</span><span>✓ 7 dias de garantia</span></div>
-        </div>
-        <div className="hero-art glow-wrap">
-          <img src={assets.hero} alt="Vila do Papai Noel com caixa ilustrativa, folhas e peças montadas" fetchPriority="high" />
-          <div className="floating-note">🎁 UMA ATIVIDADE PARA FAZER JUNTO</div>
         </div>
       </section>
 
